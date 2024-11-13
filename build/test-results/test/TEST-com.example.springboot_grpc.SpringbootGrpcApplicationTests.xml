@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.springboot_grpc.SpringbootGrpcApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-12T09:42:01" hostname="DESKTOP-JOH8EES" time="0.941">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.springboot_grpc.SpringbootGrpcApplicationTests" time="0.941"/>
+  <system-out><![CDATA[15:11:59.245 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.springboot_grpc.SpringbootGrpcApplicationTests]: SpringbootGrpcApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:11:59.408 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.springboot_grpc.SpringbootGrpcApplication for test class com.example.springboot_grpc.SpringbootGrpcApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v3.2.11)
+
+2024-11-12T15:11:59.907+05:30  INFO 17900 --- [springboot-grpc] [    Test worker] c.e.s.SpringbootGrpcApplicationTests     : Starting SpringbootGrpcApplicationTests using Java 21.0.4 with PID 17900 (started by PranavPunjabi in C:\Users\PranavPunjabi\Desktop\springboot-grpc\springboot-grpc)
+2024-11-12T15:11:59.907+05:30  INFO 17900 --- [springboot-grpc] [    Test worker] c.e.s.SpringbootGrpcApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2024-11-12T15:12:01.581+05:30  INFO 17900 --- [springboot-grpc] [    Test worker] c.e.s.SpringbootGrpcApplicationTests     : Started SpringbootGrpcApplicationTests in 1.952 seconds (process running for 3.552)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\PranavPunjabi\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.19\154da3a65b4f4a909d3e5bdec55d1b2b4cbb6ce1\byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
